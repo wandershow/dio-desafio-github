@@ -1,3 +1,34 @@
 
 Link para download do git: https://git-scm.com/downloads
 O git Bash e um terminal extendido para o uso do Git 
+
+Comandos no terminal linux
+
+ls 			--> lista os diretorios e arquivos 
+ls -a 			--> lista diretorios e arquivos ocultos
+cd /"nome da pasta" 	--> vai para a pasta/endereço
+cd .. 			--> volta um nivel na pasta/endereço
+clear ou ctrl+l	--> Limpa a tela
+TAB			--> auto completar
+mkdir "nome"		--> cria pasta
+echo hello > hello.txt --> cria um arquivo do tipo .txt
+rm -rf "nome pasta/arquivo" --> remove pasta/arquivo
+
+
+================COMANDOS GIT NO TERMINAL===============
+obs*precisa colocar o usuario como super ex: sudo su wanderson
+
+git init 	--> cria um arquivo .git oculto na pasta
+git add *	--> adiciona os arquivos que foram criados/alterados para poderem ser comitados
+git status	--> para saber se tem algo para fazer commit
+git commit -m "mensagem explicando o que esta enviando, ou o que foi alterado etc..." --> envia para a pasta de saida
+
+
+================COMANDOS GITHUB NO TERMINAL =========================
+
+git remote add origin "repositorio no github" --> aponta para onde sera enviado
+git remote -v 					--> mostra em qual repositorio esta conectado para push
+git push origin master/main			--> empurra/envia o que tem no repositorio local para o github(servidor)
+git pull origin master/main			--> pull(puxa) as versoes mais atualizadas do servidor, para alterar ou tratar algum conflito de versão.
+
+
